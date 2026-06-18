@@ -1,12 +1,12 @@
 # 🎬 Movie Explorer — Desktop Version
 
-> A desktop application built with Electron.js, wrapping the Movie Explorer React web app into a native desktop experience for Windows and macOS.
+> A desktop application built with Electron.js, wrapping the Movie Explorer React web app into a native desktop experience for Windows.
 
 ---
 
 ## 📌 About This Project
 
-Movie Explorer Desktop is the **Electron-powered desktop version** of my original Movie Explorer web app. It packages the full React.js frontend — including live TV show browsing, real-time search, and a personal watchlist — into a standalone desktop application that runs natively on Windows (`.exe`) and macOS (`.dmg`), with no browser required.
+Movie Explorer Desktop is the **Electron-powered desktop version** of my original Movie Explorer web app. It packages the full React.js frontend — including live TV show browsing, real-time search, and a personal watchlist — into a standalone desktop application that runs natively on Windows (`.exe`) with no browser required.
 
 ### 🔗 Original Web Version
 
@@ -30,7 +30,7 @@ The full React frontend is preserved as-is. Electron wraps it inside a native de
 - Real-time search
 - Add and remove titles from a personal watchlist
 - Dedicated Watchlist page for all saved shows
-- Responsive UI built with pure CSS 
+- Responsive UI built with pure CSS
 
 ---
 
@@ -54,6 +54,7 @@ The full React frontend is preserved as-is. Electron wraps it inside a native de
 
 ```
 Base URL: https://api.tvmaze.com
+```
 
 Documentation: [tvmaze.com/api](https://www.tvmaze.com/api)
 
@@ -86,7 +87,6 @@ Movie_Explorer_Desktop/
     ├── .gitignore
     └── eslint.config.js
 ```
-
 
 ---
 
@@ -130,7 +130,6 @@ Output files will appear in the `/dist` folder:
 |---|---|
 | Windows | `Movie Explorer Setup.exe` |
 | macOS | `Movie Explorer.dmg` |
-
 
 ---
 
