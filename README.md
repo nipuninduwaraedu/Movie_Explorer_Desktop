@@ -64,36 +64,29 @@ Documentation: [tvmaze.com/api](https://www.tvmaze.com/api)
 ```
 Movie_Explorer_Desktop/
 │
-├── client/
-│   ├── dist/
-│   ├── dist_electron/
-│   │
-│   ├── electron/
-│   │   └── main.js
-│   │
-│   ├── node_modules/
-│   ├── public/
-│   │
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── MovieCard.jsx
-│   │   │   └── Navbar.jsx
-│   │   │
-│   │   ├── context/
-│   │   │   └── WatchvistContext.jsx
-│   │   │
-│   │   ├── pages/
-│   │   │   └── Watchlist.jsx
-│   │   │
-│   │   ├── Styles/
-│   │   │
-│   │   ├── App.css
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   │
-│   ├── .gitignore
-│   └── eslint.config.js
+└── client/
+    ├── dist/
+    ├── dist_electron/
+    ├── electron/
+    │   └── main.js
+    ├── node_modules/
+    ├── public/
+    ├── src/
+    │   ├── components/
+    │   │   ├── MovieCard.jsx
+    │   │   └── Navbar.jsx
+    │   ├── context/
+    │   │   └── WatchvistContext.jsx
+    │   ├── pages/
+    │   │   └── Watchlist.jsx
+    │   ├── Styles/
+    │   ├── App.css
+    │   ├── App.jsx
+    │   └── main.jsx
+    ├── .gitignore
+    └── eslint.config.js
 ```
+
 
 ---
 
